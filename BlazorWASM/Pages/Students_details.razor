@@ -1,0 +1,67 @@
+﻿@page "/stud_details"
+@using BlazorCRUD.Library
+@inject HttpClient http  
+
+<h3>Students_details</h3>
+
+<div class="container">
+    <div class="row">
+        <div class="col-10">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Fater Name</th>
+                        <th scope="col">Mobile Number</th>
+                        <th scope="col">Semester</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Roll Number</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Students == null)
+                    {
+                          <h2>Loading ....</h2>  
+                    } else
+                    {
+                            
+                    @foreach (var item in Students)
+                    {
+                    <tr>
+                        <th scope="row">@item.Id</th>
+                        <td>@item.Name</td>
+                        <td>@item.FatherName</td>
+                        <td>@item.MobileNumber</td>
+                        <td>@item.Semester</td>
+                        <td>@item.Email</td>
+                        <td>@item.RollNumber</td>
+                    </tr>
+                    } 
+                }
+
+                  
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+@code {
+    public IEnumerable<Student> Students { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+
+            Students = await http.GetFromJsonAsync<IEnumerable<Student>>("https://localhost:7148/api/Students");
+        } catch(Exception ee){
+            Console.WriteLine("The Error is ==> " + ee.ToString());
+        }
+    }
+
+
+}
+ 

@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MUSAB\\source\\repos\\BlazorCRUDYT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DA30D6A8-1DFD-4B1E-9F07-71B2F0DBDFE2}|BlazorWASM\\BlazorWASM.csproj|c:\\users\\musab\\source\\repos\\blazorcrudyt\\blazorwasm\\pages\\students_details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA30D6A8-1DFD-4B1E-9F07-71B2F0DBDFE2}|BlazorWASM\\BlazorWASM.csproj|solutionrelative:blazorwasm\\pages\\students_details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECC16C0D-A669-41BD-8E05-B9ECA6B5E567}|BlazorCRUD.API\\BlazorCRUD.API.csproj|c:\\users\\musab\\source\\repos\\blazorcrudyt\\blazorcrud.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECC16C0D-A669-41BD-8E05-B9ECA6B5E567}|BlazorCRUD.API\\BlazorCRUD.API.csproj|solutionrelative:blazorcrud.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\MUSAB\\source\\repos\\BlazorCRUDYT\\BlazorCRUD.API\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorCRUD.API\\Program.cs",
+              "ToolTip": "C:\\Users\\MUSAB\\source\\repos\\BlazorCRUDYT\\BlazorCRUD.API\\Program.cs",
+              "RelativeToolTip": "BlazorCRUD.API\\Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAA8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T14:05:49.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Students_details.razor",
+              "DocumentMoniker": "C:\\Users\\MUSAB\\source\\repos\\BlazorCRUDYT\\BlazorWASM\\Pages\\Students_details.razor",
+              "RelativeDocumentMoniker": "BlazorWASM\\Pages\\Students_details.razor",
+              "ToolTip": "C:\\Users\\MUSAB\\source\\repos\\BlazorCRUDYT\\BlazorWASM\\Pages\\Students_details.razor",
+              "RelativeToolTip": "BlazorWASM\\Pages\\Students_details.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T13:01:35.389Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
