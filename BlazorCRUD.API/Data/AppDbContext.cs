@@ -15,8 +15,5 @@ namespace BlazorCRUD.API.Data
 
         public DbSet<Demo> tbl_Demo { get; set; }
 
-
-
-
     }
 }

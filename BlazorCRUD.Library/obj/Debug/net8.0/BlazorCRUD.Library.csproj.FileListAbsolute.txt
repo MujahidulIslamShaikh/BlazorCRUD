@@ -9,3 +9,15 @@ C:\Users\MUSAB\source\repos\BlazorCRUDYT\BlazorCRUD.Library\obj\Debug\net8.0\Bla
 C:\Users\MUSAB\source\repos\BlazorCRUDYT\BlazorCRUD.Library\obj\Debug\net8.0\refint\BlazorCRUD.Library.dll
 C:\Users\MUSAB\source\repos\BlazorCRUDYT\BlazorCRUD.Library\obj\Debug\net8.0\BlazorCRUD.Library.pdb
 C:\Users\MUSAB\source\repos\BlazorCRUDYT\BlazorCRUD.Library\obj\Debug\net8.0\ref\BlazorCRUD.Library.dll
+C:\Users\MUSAB\source\repos\Mujahid\BlazorCRUDYT\BlazorCRUD.Library\bin\Debug\net8.0\BlazorCRUD.Library.deps.json
+C:\Users\MUSAB\source\repos\Mujahid\BlazorCRUDYT\BlazorCRUD.Library\bin\Debug\net8.0\BlazorCRUD.Library.dll
+C:\Users\MUSAB\source\repos\Mujahid\BlazorCRUDYT\BlazorCRUD.Library\bin\Debug\net8.0\BlazorCRUD.Library.pdb
+C:\Users\MUSAB\source\repos\Mujahid\BlazorCRUDYT\BlazorCRUD.Library\obj\Debug\net8.0\BlazorCRUD.Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MUSAB\source\repos\Mujahid\BlazorCRUDYT\BlazorCRUD.Library\obj\Debug\net8.0\BlazorCRUD.Library.AssemblyInfoInputs.cache
+C:\Users\MUSAB\source\repos\Mujahid\BlazorCRUDYT\BlazorCRUD.Library\obj\Debug\net8.0\BlazorCRUD.Library.AssemblyInfo.cs
+C:\Users\MUSAB\source\repos\Mujahid\BlazorCRUDYT\BlazorCRUD.Library\obj\Debug\net8.0\BlazorCRUD.Library.csproj.CoreCompileInputs.cache
+C:\Users\MUSAB\source\repos\Mujahid\BlazorCRUDYT\BlazorCRUD.Library\obj\Debug\net8.0\BlazorCRUD.Library.sourcelink.json
+C:\Users\MUSAB\source\repos\Mujahid\BlazorCRUDYT\BlazorCRUD.Library\obj\Debug\net8.0\BlazorCRUD.Library.dll
+C:\Users\MUSAB\source\repos\Mujahid\BlazorCRUDYT\BlazorCRUD.Library\obj\Debug\net8.0\refint\BlazorCRUD.Library.dll
+C:\Users\MUSAB\source\repos\Mujahid\BlazorCRUDYT\BlazorCRUD.Library\obj\Debug\net8.0\BlazorCRUD.Library.pdb
+C:\Users\MUSAB\source\repos\Mujahid\BlazorCRUDYT\BlazorCRUD.Library\obj\Debug\net8.0\ref\BlazorCRUD.Library.dll

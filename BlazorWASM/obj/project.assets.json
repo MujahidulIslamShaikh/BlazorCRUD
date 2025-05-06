@@ -2092,11 +2092,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MUSAB\\source\\repos\\BlazorCRUDYT\\BlazorWASM\\BlazorWASM.csproj",
+      "projectUniqueName": "C:\\Users\\MUSAB\\source\\repos\\Mujahid\\02_BlazorCRUDYT\\BlazorWASM\\BlazorWASM.csproj",
       "projectName": "BlazorWASM",
-      "projectPath": "C:\\Users\\MUSAB\\source\\repos\\BlazorCRUDYT\\BlazorWASM\\BlazorWASM.csproj",
+      "projectPath": "C:\\Users\\MUSAB\\source\\repos\\Mujahid\\02_BlazorCRUDYT\\BlazorWASM\\BlazorWASM.csproj",
       "packagesPath": "C:\\Users\\MUSAB\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MUSAB\\source\\repos\\BlazorCRUDYT\\BlazorWASM\\obj\\",
+      "outputPath": "C:\\Users\\MUSAB\\source\\repos\\Mujahid\\02_BlazorCRUDYT\\BlazorWASM\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
@@ -2122,8 +2122,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\MUSAB\\source\\repos\\BlazorCRUDYT\\BlazorCRUD.Library\\BlazorCRUD.Library.csproj": {
-              "projectPath": "C:\\Users\\MUSAB\\source\\repos\\BlazorCRUDYT\\BlazorCRUD.Library\\BlazorCRUD.Library.csproj"
+            "C:\\Users\\MUSAB\\source\\repos\\Mujahid\\02_BlazorCRUDYT\\BlazorCRUD.Library\\BlazorCRUD.Library.csproj": {
+              "projectPath": "C:\\Users\\MUSAB\\source\\repos\\Mujahid\\02_BlazorCRUDYT\\BlazorCRUD.Library\\BlazorCRUD.Library.csproj"
             }
           }
         }

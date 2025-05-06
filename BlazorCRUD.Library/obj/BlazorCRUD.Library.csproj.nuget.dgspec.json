@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MUSAB\\source\\repos\\BlazorCRUDYT\\BlazorCRUD.Library\\BlazorCRUD.Library.csproj": {}
+    "C:\\Users\\MUSAB\\source\\repos\\Mujahid\\02_BlazorCRUDYT\\BlazorCRUD.Library\\BlazorCRUD.Library.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MUSAB\\source\\repos\\BlazorCRUDYT\\BlazorCRUD.Library\\BlazorCRUD.Library.csproj": {
+    "C:\\Users\\MUSAB\\source\\repos\\Mujahid\\02_BlazorCRUDYT\\BlazorCRUD.Library\\BlazorCRUD.Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MUSAB\\source\\repos\\BlazorCRUDYT\\BlazorCRUD.Library\\BlazorCRUD.Library.csproj",
+        "projectUniqueName": "C:\\Users\\MUSAB\\source\\repos\\Mujahid\\02_BlazorCRUDYT\\BlazorCRUD.Library\\BlazorCRUD.Library.csproj",
         "projectName": "BlazorCRUD.Library",
-        "projectPath": "C:\\Users\\MUSAB\\source\\repos\\BlazorCRUDYT\\BlazorCRUD.Library\\BlazorCRUD.Library.csproj",
+        "projectPath": "C:\\Users\\MUSAB\\source\\repos\\Mujahid\\02_BlazorCRUDYT\\BlazorCRUD.Library\\BlazorCRUD.Library.csproj",
         "packagesPath": "C:\\Users\\MUSAB\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MUSAB\\source\\repos\\BlazorCRUDYT\\BlazorCRUD.Library\\obj\\",
+        "outputPath": "C:\\Users\\MUSAB\\source\\repos\\Mujahid\\02_BlazorCRUDYT\\BlazorCRUD.Library\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",

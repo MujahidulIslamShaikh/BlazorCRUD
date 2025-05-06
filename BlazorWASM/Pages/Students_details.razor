@@ -1,8 +1,8 @@
 ﻿@page "/stud_details"
 @using BlazorCRUD.Library
-@inject HttpClient http  
+@inject HttpClient http
 
-<h3>Students_details</h3>
+<h3>Students Details</h3>
 
 <div class="container">
     <div class="row">
@@ -10,38 +10,39 @@
             <table class="table">
                 <thead>
                     <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Name</th>
-                        <th scope="col">Fater Name</th>
-                        <th scope="col">Mobile Number</th>
-                        <th scope="col">Semester</th>
-                        <th scope="col">Email</th>
-                        <th scope="col">Roll Number</th>
-
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Father Name</th>
+                        <th>Mobile Number</th>
+                        <th>Semester</th>
+                        <th>Email</th>
+                        <th>Roll Number</th>
+                        <th>ACTIONS</th>
                     </tr>
                 </thead>
                 <tbody>
                     @if (Students == null)
                     {
-                          <h2>Loading ....</h2>  
-                    } else
+                        <tr><td colspan="8"><h5>Loading ...</h5></td></tr>
+                    }
+                    else
                     {
-                            
-                    @foreach (var item in Students)
-                    {
-                    <tr>
-                        <th scope="row">@item.Id</th>
-                        <td>@item.Name</td>
-                        <td>@item.FatherName</td>
-                        <td>@item.MobileNumber</td>
-                        <td>@item.Semester</td>
-                        <td>@item.Email</td>
-                        <td>@item.RollNumber</td>
-                    </tr>
-                    } 
-                }
-
-                  
+                        @foreach (var item in Students)
+                        {
+                            <tr>
+                                <td>@item.Id</td>
+                                <td>@item.Name</td>
+                                <td>@item.FatherName</td>
+                                <td>@item.MobileNumber</td>
+                                <td>@item.Semester</td>
+                                <td>@item.Email</td>
+                                <td>@item.RollNumber</td>
+                                <td>
+                                    <button class="btn btn-danger" @onclick="() => DeleteMethod(item.Id)">Delete</button>
+                                </td>
+                            </tr>
+                        }
+                    }
                 </tbody>
             </table>
         </div>
@@ -49,19 +50,39 @@
 </div>
 
 @code {
-    public IEnumerable<Student> Students { get; set; }
+    public List<Student> Students { get; set; } = new();
 
     protected override async Task OnInitializedAsync()
     {
         try
         {
-
-            Students = await http.GetFromJsonAsync<IEnumerable<Student>>("https://localhost:7148/api/Students");
-        } catch(Exception ee){
+            Students = (await http.GetFromJsonAsync<IEnumerable<Student>>("https://localhost:7148/api/Students"))?.ToList() ?? new List<Student>();
+        }
+        catch (Exception ee)
+        {
             Console.WriteLine("The Error is ==> " + ee.ToString());
         }
     }
 
-
+    private async Task DeleteMethod(int id)
+    {
+        Console.WriteLine("Delete method chala for ID: " + id);
+        try
+        {
+            var response = await http.DeleteAsync($"https://localhost:7148/api/Students/{id}");
+            if (response.IsSuccessStatusCode)
+            {
+                Console.WriteLine("Delete Successfully!");
+                Students = Students.Where(s => s.Id != id).ToList();
+            }
+            else
+            {
+                Console.WriteLine("Delete Failed!!");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error: {ex.Message}");
+        }
+    }
 }
- 
