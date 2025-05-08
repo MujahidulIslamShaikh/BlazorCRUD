@@ -5,12 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace BlazorCRUD.Library
-{
-    internal class Employee
+{   
+    public class Employee
     {
         public int Id { get; set; }
-        public String Name { get; set; }
-        public String Email { get; set; }
+        public string Username { get; set; }    
+        public string Email { get; set; }
+        public string? Phone { get; set; }
         public Boolean IsActive { get; set; }
+
     }
 }

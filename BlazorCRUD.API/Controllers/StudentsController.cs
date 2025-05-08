@@ -12,7 +12,7 @@ namespace BlazorCRUD.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class StudentsController : ControllerBase
+    public class StudentsController : ControllerBase    
     {
         private readonly AppDbContext _context;
 
@@ -79,7 +79,7 @@ namespace BlazorCRUD.API.Controllers
         public async Task<ActionResult<Student>> PostStudent(Student student)
         {
             _context.tbl_Student.Add(student);
-            await _context.SaveChangesAsync();
+            await _context.SaveChangesAsync();  
 
             return CreatedAtAction("GetStudent", new { id = student.Id }, student);
         }

@@ -12,8 +12,7 @@ namespace BlazorCRUD.API.Data
 
         // DbSet for the tables (replace 'TableName' with your actual table name)
         public DbSet<Student> tbl_Student { get; set; } // Example table for tal_Student
-
-        public DbSet<Demo> tbl_Demo { get; set; }
+        public DbSet<Employee> tbl_Employee { get; set; }
 
     }
 }

@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BlazorCRUD.API\\Controllers",
+    "\\BlazorCRUD.API\\Data",
+    "\\BlazorCRUD.API\\Migrations",
+    "\\BlazorWASM\\Pages"
+  ],
+  "PreviewInSolutionExplorer": false
+}
